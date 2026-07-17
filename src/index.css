@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", "Cascadia Code", "Consolas", monospace;
+
+  --color-neo-yellow: #FFD214;
+  --color-neo-pink: #FF6B7A;
+  --color-neo-blue: #3B82F6;
+  --color-neo-green: #37D67A;
+  --color-neo-purple: #7047EB;
+  --color-neo-violet: #8B5CF6;
+  --color-neo-orange: #FF7E40;
+}
+
+@utility neo-btn {
+  @apply px-6 py-3 font-bold bg-white text-black border-2 border-black rounded-xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-[4px] active:translate-y-[4px] active:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] cursor-pointer select-none inline-flex items-center gap-2;
+}
+
+@utility neo-btn-black {
+  @apply px-6 py-3 font-bold bg-black text-white border-2 border-black rounded-xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:translate-x-[4px] active:translate-y-[4px] active:shadow-[0px_0px_0px_0px_rgba(0,0,0,1)] cursor-pointer select-none inline-flex items-center gap-2;
+}
+
+@utility neo-card {
+  @apply bg-white text-black border-2 border-black rounded-2xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-6 transition-all hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)];
+}
+
+@utility neo-card-static {
+  @apply bg-white text-black border-2 border-black rounded-2xl shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] p-6;
+}
+
+@utility neo-badge {
+  @apply px-3 py-1 text-xs font-bold bg-black text-white rounded-full border border-black uppercase tracking-wider inline-block;
+}
+
+@utility neo-highlight-pink {
+  @apply relative inline-block px-2 py-0.5 z-10 before:content-[''] before:absolute before:inset-0 before:bg-neo-pink before:-z-10 before:transform before:rotate-[-1deg];
+}
+
+@utility neo-highlight-blue {
+  @apply relative inline-block px-2 py-0.5 text-white z-10 before:content-[''] before:absolute before:inset-0 before:bg-neo-blue before:-z-10 before:transform before:rotate-[1deg];
+}
+
+@utility neo-highlight-yellow {
+  @apply relative inline-block px-2 py-0.5 z-10 before:content-[''] before:absolute before:inset-0 before:bg-neo-yellow before:-z-10 before:transform before:rotate-[-2deg];
+}
+
+body {
+  @apply bg-[#FDFDFC] text-black font-sans antialiased selection:bg-neo-yellow selection:text-black;
+}
