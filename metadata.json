@@ -1,0 +1,6 @@
+{
+  "name": "John Carter Portfolio",
+  "description": "A stunning neobrutalist-themed personal website featuring home page, about section, articles collection, and design portfolio with vibrant colors and bold stroke styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
