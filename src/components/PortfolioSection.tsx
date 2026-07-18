@@ -167,7 +167,7 @@ export const PortfolioSection: React.FC = () => {
                     rel="noopener noreferrer"
                     className="group block bg-white border-3 border-black rounded-2xl overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all"
                   >
-                    <div className="h-40 overflow-hidden border-b-3 border-black relative">
+                    <div className="aspect-[3/4] md:aspect-[9/16] overflow-hidden border-b-3 border-black relative bg-[#FAFAF9]">
                       <img 
                         src={item.image} 
                         alt={item.title} 
