@@ -124,21 +124,21 @@ export const xiaohongshuData: XiaohongshuItem[] = [
     id: 'xhs-v1',
     title: '为什么有钱人都喜欢隐居日本?',
     link: 'https://www.xiaohongshu.com/explore/649aa0ad0000000027002eb1?app_platform=android&ignoreEngage=true&app_version=9.36.2&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CB2iGr2wCmBeGqRIZHgJRXIwUdcV3_Necdd6gdx7R9r7s=&author_share=1&xhsshare=WeixinSession&shareRedId=N0g4ODo8R0I8STo6Sz80SjlFOUo0SDZC&apptime=1783623704&share_id=096aef72d06a48ed95f0f303a3818d9d&share_channel=wechat&code=4z26skBiGJD&wechatWid=84ef4a39c1d06df8271d68167789fabf&wechatOrigin=menu',
-    image: getPortfolioImage('2025 IBTE 印尼国际玩具及婴童用品展.jpg'),
+    image: getPortfolioImage('小红书视频1.png'),
     type: 'video'
   },
   {
     id: 'xhs-v2',
     title: '定居日本是一种怎样的体验',
     link: 'https://www.xiaohongshu.com/explore/634e8184000000000601d877?app_platform=android&ignoreEngage=true&app_version=9.36.2&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBVUX82Ul6NzawngPuM6xCJOKFQPJzdv100vY70qJ9tsg=&author_share=1&xhsshare=WeixinSession&shareRedId=N0g4ODo8R0I8STo6Sz80SjlFOUo0SDZC&apptime=1783623732&share_id=caa37b97c8fd46ccb1641f8529106ca7&share_channel=wechat&code=A0xaBZOxKIN&wechatWid=84ef4a39c1d06df8271d68167789fabf&wechatOrigin=menu',
-    image: getPortfolioImage('2025 中国（越南）出口品牌联合展.jpg'),
+    image: getPortfolioImage('小红书视频2.png'),
     type: 'video'
   },
   {
     id: 'xhs-v3',
     title: '为什么日本留学生住得离学校越远越好',
     link: 'https://www.xiaohongshu.com/explore/622f0c7a000000002103e6f5?app_platform=android&ignoreEngage=true&app_version=9.36.2&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBKSx1OfvdPy1ksaryleMmK_PCJuUzHMs2zHD1mP5_xz8=&author_share=1&xhsshare=WeixinSession&shareRedId=N0g4ODo8R0I8STo6Sz80SjlFOUo0SDZC&apptime=1783623805&share_id=783f9c347bcf43a99acbc9b8c6156198&share_channel=wechat&code=vh194w1Qd5&wechatWid=84ef4a39c1d06df8271d68167789fabf&wechatOrigin=menu',
-    image: getPortfolioImage('2024越南玩具及婴童用品展览会.jpg'),
+    image: getPortfolioImage('小红书视频3.png'),
     type: 'video'
   }
 ];
