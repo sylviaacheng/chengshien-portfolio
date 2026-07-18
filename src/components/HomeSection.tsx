@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Mail, Briefcase, Sparkles, ArrowRight, User } from 'lucide-react';
+import { Mail, Briefcase, Sparkles, ArrowRight, User, FileText } from 'lucide-react';
 import { AvatarMain, WebDesignServiceIcon, UIUXServiceIcon, ProductDesignServiceIcon, AvatarCircleLaptop, BrandPromotionServiceIcon } from './SVGIcons';
 import { servicesData } from '../data';
 
@@ -78,6 +78,15 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onSwitchTab, onOpenCon
             >
               <Briefcase className="w-4.5 h-4.5" />
               查看作品集
+            </button>
+            
+            <button 
+              onClick={() => onSwitchTab('articles')} 
+              className="neo-btn"
+              id="hero-articles-btn"
+            >
+              <FileText className="w-4.5 h-4.5" />
+              查看文章
             </button>
           </motion.div>
         </div>
